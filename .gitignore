@@ -1,0 +1,3 @@
+./config/pem/private_key.pem
+./config/pem_public_key.pem
+./config/config.yaml

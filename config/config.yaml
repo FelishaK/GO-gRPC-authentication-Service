@@ -1,0 +1,15 @@
+env: "local"
+access_token_ttl: 1h
+refresh_token_ttl: 720h
+database:
+  mongo_user: "mongouser"
+  mongo_password: "Password"
+  mongo_hostname: "mongo" 
+  mongo_port: 27017
+  mongo_db_name: "auth"
+  timeout: 1s
+grpc:
+  port: 20005
+  grpc_host: "0.0.0.0"
+  timeout: 4s
+
